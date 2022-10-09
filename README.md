@@ -10,7 +10,7 @@
 
 ### 🏠 [Homepage](https://issue-trackker.herokuapp.com/)
 
-### 📽️ [Video](https://youtu.be/sMPkYeWyx-Y)
+### 📽️ [Video](https://youtu.be/Ythz2Sk9PD4)
 
 ## Install
 
