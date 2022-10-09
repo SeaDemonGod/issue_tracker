@@ -8,7 +8,7 @@
 
 > Application to maintain & track issues of projects
 
-### 🏠 [Homepage](https://issues-trackker.herokuapp.com/)
+### 🏠 [Homepage](https://issue-trackker.herokuapp.com/)
 
 ### 📽️ [Video](https://youtu.be/sMPkYeWyx-Y)
 
