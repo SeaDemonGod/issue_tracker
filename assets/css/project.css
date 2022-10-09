@@ -1,156 +1,156 @@
 ::placeholder {
-    color: lightcyan;
-    padding: 10px; }
-  
-  #project-container {
-    background-color: #192233;
-    width: 75%;
-    margin: auto; }
-  
-  .project-item {
-    background-color: #19556e;
-    padding: 15px;
-    margin: 10px auto;
-    border-radius: 10px;
-    width: 80%; }
-    .project-item p span {
-      color: #08090b;
-      font-weight: bolder;
-      font-size: large; }
-  
-  #report-div {
+  color: lightcyan;
+  padding: 10px; }
+
+#project-container {
+  background-color: #192233;
+  width: 75%;
+  margin: auto; }
+
+.project-item {
+  background-color: #19556e;
+  padding: 15px;
+  margin: 10px auto;
+  border-radius: 10px;
+  width: 80%; }
+  .project-item p span {
+    color: #08090b;
+    font-weight: bolder;
+    font-size: large; }
+
+#report-div {
+  border-radius: 8px;
+  background-color: #212c42;
+  width: 83%;
+  margin: auto; }
+  #report-div .heading {
+    font-size: 25px;
+    font-weight: 900;
+    padding: 20px; }
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  form .hide {
+    visibility: hidden; }
+  form input[type="text"] {
+    width: 55%;
+    height: 45px;
+    margin: 10px;
+    background-color: #2e2c3c;
     border-radius: 8px;
-    background-color: #212c42;
-    width: 83%;
-    margin: auto; }
-    #report-div .heading {
-      font-size: 25px;
-      font-weight: 900;
-      padding: 20px; }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-    form .hide {
-      visibility: hidden; }
-    form input[type="text"] {
-      width: 55%;
-      height: 45px;
-      margin: 10px;
-      background-color: #2e2c3c;
-      border-radius: 8px;
-      color: whitesmoke;
-      font-family: 'Roboto Slab', serif; }
-    form textarea {
-      width: 55%;
-      height: 100px;
-      margin: 10px;
-      background-color: #2e2c3c;
-      color: whitesmoke;
-      border-radius: 8px;
-      font-family: 'Roboto Slab', serif; }
-    form .select {
-      margin: auto;
-      width: 50%;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 3px; }
-      form .select .select_item {
-        padding: 10px;
-        cursor: pointer;
-        text-align: center;
-        border-radius: 4px;
-        background-color: lightgray;
-        color: black;
-        transition: background 0.1s; }
-      form .select .select_item_selected {
-        background-color: #ff6201;
-        color: whitesmoke; }
-  
-  span {
-    color: #00ddff; }
-  
-  #issues-list {
-    width: 90%;
+    color: whitesmoke;
+    font-family: 'Roboto Slab', serif; }
+  form textarea {
+    width: 55%;
+    height: 100px;
+    margin: 10px;
+    background-color: #2e2c3c;
+    color: whitesmoke;
+    border-radius: 8px;
+    font-family: 'Roboto Slab', serif; }
+  form .select {
     margin: auto;
-    background-color: #212c42;
-    border-radius: 8px;
-    padding: 15px; }
-    #issues-list li {
-      list-style: none;
-      margin: 5px; }
-    #issues-list h2 {
-      margin: 10px;
-      padding: 10px; }
-    #issues-list .issue-item {
-      margin: 20px;
-      background-color: #192233;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3px; }
+    form .select .select_item {
       padding: 10px;
-      border-radius: 5px; }
-    #issues-list .labels {
-      display: flex;
-      justify-content: space-evenly; }
-      #issues-list .labels .label-item {
-        align-items: center;
-        appearance: none;
-        background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
-        border: 0;
-        border-radius: 6px;
-        box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
-        box-sizing: border-box;
-        display: inline-flex;
-        font-family: "JetBrains Mono",monospace;
-        height: 40px;
-        padding: 10px;
-        justify-content: center;
-        position: relative;
-        text-align: left;
-        font-size: 18px; }
-  
-  .select_item_selected {
-    background-color: #6bfe6b;
-    color: whitesmoke; }
-  
-  #btns {
+      cursor: pointer;
+      text-align: center;
+      border-radius: 4px;
+      background-color: lightgray;
+      color: black;
+      transition: background 0.1s; }
+    form .select .select_item_selected {
+      background-color: #ff6201;
+      color: whitesmoke; }
+
+span {
+  color: #00ddff; }
+
+#issues-list {
+  width: 90%;
+  margin: auto;
+  background-color: #212c42;
+  border-radius: 8px;
+  padding: 15px; }
+  #issues-list li {
+    list-style: none;
+    margin: 5px; }
+  #issues-list h2 {
+    margin: 10px;
+    padding: 10px; }
+  #issues-list .issue-item {
+    margin: 20px;
+    background-color: #192233;
+    padding: 10px;
+    border-radius: 5px; }
+  #issues-list .labels {
+    display: flex;
+    justify-content: space-evenly; }
+    #issues-list .labels .label-item {
+      align-items: center;
+      appearance: none;
+      background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+      border: 0;
+      border-radius: 6px;
+      box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+      box-sizing: border-box;
+      display: inline-flex;
+      font-family: "JetBrains Mono",monospace;
+      height: 40px;
+      padding: 10px;
+      justify-content: center;
+      position: relative;
+      text-align: left;
+      font-size: 18px; }
+
+.select_item_selected {
+  background-color: #6bfe6b;
+  color: whitesmoke; }
+
+#btns {
+  display: flex;
+  justify-content: space-around; }
+
+.show-issues-btn {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 800;
+  padding: 12px 14px;
+  text-align: center;
+  margin: 20px;
+  width: 18 0px; }
+
+.report-issues-btn {
+  background-color: #0b9174;
+  border: 0;
+  width: 150px; }
+
+#filters {
+  margin: 20px 0px; }
+  #filters form fieldset {
+    width: 80%;
+    border-radius: 8px; }
+    #filters form fieldset legend {
+      font-weight: 600;
+      font-size: 22px; }
+  #filters form #labels {
     display: flex;
     justify-content: space-around; }
-  
-  .show-issues-btn {
-    background: #FF4742;
-    border: 1px solid #FF4742;
-    border-radius: 6px;
-    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
-    box-sizing: border-box;
-    color: #FFFFFF;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 800;
-    padding: 12px 14px;
-    text-align: center;
-    margin: 20px;
-    width: 18 0px; }
-  
-  .report-issues-btn {
-    background-color: #0b9174;
-    border: 0;
-    width: 150px; }
-  
-  #filters {
-    margin: 20px 0px; }
-    #filters form fieldset {
-      width: 80%;
-      border-radius: 8px; }
-      #filters form fieldset legend {
-        font-weight: 600;
-        font-size: 22px; }
-    #filters form #labels {
-      display: flex;
-      justify-content: space-around; }
-    #filters form .search-bar {
-      width: 70%;
-      margin: 10px auto; }
-    #filters form .note-text {
-      color: #06c8d3;
-      text-align: center; }
+  #filters form .search-bar {
+    width: 70%;
+    margin: 10px auto; }
+  #filters form .note-text {
+    color: #06c8d3;
+    text-align: center; }
