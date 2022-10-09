@@ -1,0 +1,35 @@
+<link rel="stylesheet" href="/css/home.css">
+
+
+<div id="home-container">
+
+
+    <div id="projects">
+
+        <h1>Projects</h1>
+        <div id="project-button">
+            <% if(locals.user){ %>
+                <a href="/projects">Create Project</a>
+            
+            <% } %>
+        </div>
+        <% if(!locals.user){ %>
+           <p class="note-text">Sign In /Sign Up To Create Project</p>
+        
+        <% } %>
+
+        <div id="projects-list-container">
+                <% for(project of projects){ %> 
+                <%- include('project'); -%> 
+                <% } %>
+        </div>
+        
+
+    </div>
+
+</div>  
+<script src="/js/project.js"></script>  
+
+
+
+
